@@ -1,15 +1,19 @@
 body{
-        font-family: arial, helvetica, sans-serif;
+        font-family: arial, sans-serif;
+        background-color: #ffffff;
 }
 a{
-        color: red;
+        color: orange;
         text-decoration: none;
 }
+
 body,h1,h2,h3,p,figure{
         margin: 10;
 }
 /*très important*/
 *{
+        margin:0;
+        padding:0;
         box-sizing: border-box;
         /*pour empêcher le padding de modifier la taille des boxs*/
 }
@@ -25,10 +29,9 @@ h1{
 }
 .container{
         max-width: 960px;
-        margin: 5 auto;
+        margin: auto;
 }
 .content{
-        
 }
 .bobor{
         border: solid green 1px;
@@ -92,9 +95,9 @@ header nav li{
 }
 
 .fondgris{
-        background-color: #5CE729;
+        background-color: #999999;
         width: 315px;
-        padding: 20px;
+        padding: 10px;
 }
 .alignd{
         float: right;
@@ -129,8 +132,13 @@ footer{
         background-color: #333;
         height: 180px;
 }
+
+footer h1{
+        margin-left: 40px;
+}
+
 footer ul{
-        margin-left: -40px;
+        margin-left: 40px;
 }
 footer li{
         list-style: none;/*antipuce*/
@@ -146,13 +154,13 @@ footer li{
         /*classe à placer pour justifier un texte*/
 }
 .margh20{
-        margin-top: 30px;
+        margin-top: 20px;
 }
 .margb10{
-        margin-bottom: 20px;
+        margin-bottom: 10px;
 }
 .margb20{
-        margin-bottom: 10px;
+        margin-bottom: 20px;
 }
 .margb30{
         margin-bottom: 30px;
